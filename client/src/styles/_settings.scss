@@ -1,0 +1,48 @@
+// fonts
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+// settings
+*,
+*:before,
+*:after {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: "Roboto Slab", serif;
+	scroll-behavior: smooth;
+	text-decoration: none;
+	border: none;
+	font-weight: 300;
+	color: #2d2d2d;
+}
+
+// colors
+$el-primary: #b2967d;
+$el-secondary: #e6beae;
+$el-tertiary: #e7d8c9;
+$el-quaternary: #eee4e1;
+$el-quinary: #ecf8f8;
+
+$text-primary: #2d2d2d;
+
+// mixins
+@mixin desktop-breakpoint {
+	@media (max-width: 1200px) {
+		@content;
+	}
+}
+@mixin tablet-breakpoint {
+	@media (max-width: 900px) {
+		@content;
+	}
+}
+@mixin mobile-breakpoint {
+	@media (max-width: 550px) {
+		@content;
+	}
+}
+
+// animations
+$flash-animation: 200ms;
+$short-animation: 500ms;
+$long-animation: 700ms;
