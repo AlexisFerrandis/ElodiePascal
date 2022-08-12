@@ -3,6 +3,7 @@ import NavBar from "./components/NavBar";
 
 import Home from "./components/sections/Home";
 import Author from "./components/sections/Author";
+import Books from "./components/sections/Books";
 
 const App = () => {
 	return (
@@ -11,6 +12,7 @@ const App = () => {
 
 			<Home />
 			<Author />
+			<Books />
 		</div>
 	);
 };
