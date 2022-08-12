@@ -1,0 +1,8 @@
+.btn-primary {
+	padding: 10px 50px;
+	background-color: rgba($el-primary, 0.5);
+	transition: $short-animation;
+	&:hover {
+		filter: brightness(0.95);
+	}
+}
